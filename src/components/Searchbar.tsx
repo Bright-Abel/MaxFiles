@@ -23,7 +23,7 @@ const Searchbar = () => {
 
         <button
           type="button"
-          className="px-2 py-1 bg-blue hidden lg:flex text-black border border-solid border-borders font-bold text-sm 2xl:text-lg rounded-md "
+          className="px-2 py-1 bg-blue hidden lg:flex text-black hover:bg-[#8383e6] duration-500 border border-solid border-borders font-bold text-sm 2xl:text-lg rounded-md "
         >
           Search
         </button>
@@ -35,7 +35,7 @@ const Searchbar = () => {
         </button>
         <button
           type="button"
-          className="px-2 py-1 bg-blue capitalize whitespace-nowrap hidden xl:block  text-black border border-solid border-borders font-bold text-sm 2xl:text-lg rounded-md "
+          className="px-2 py-1 bg-blue capitalize whitespace-nowrap hidden xl:block hover:bg-[#8383e6] duration-500 text-black border border-solid border-borders font-bold text-sm 2xl:text-lg rounded-md "
         >
           upload file
         </button>

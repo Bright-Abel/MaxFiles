@@ -21,7 +21,7 @@ const Workflow = () => {
         onClick={handleClick}
         type="button"
         className={clsx(
-          'inline-flex items-center gap-1 whitespace-nowrap font-bold text-sm 2xl:text-lg capitalize justify-center w-full px-2 py-1 bg-blue border border-solid  border-borders text-black hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75',
+          'inline-flex items-center hover:bg-[#8383e6] duration-500 gap-1 whitespace-nowrap font-bold text-sm 2xl:text-lg capitalize justify-center w-full px-2 py-1 bg-blue border border-solid  border-borders text-black hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-75',
           isOpen ? 'rounded-t-md' : 'rounded-md '
         )}
       >
